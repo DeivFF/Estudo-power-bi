@@ -1,0 +1,11 @@
+https://www.youtube.com/watch?v=YzmVZfTgMV8&t=1902s
+
+Indicadores analisados
+
+Quantidade de funcionários contratados até o momento.
+Fórmula: Quantidade de funcionarios = COUNTROWS('Base Funcionarios')
+
+Quantidade de funcionários ativos
+Fórmula: Quantidade de funcionarios ativos = CALCULATE(COUNTROWS('Base Funcionarios'),'Base Funcionarios'[Data de Demissao]=BLANK())
+
+Quantidade de contratações por ano

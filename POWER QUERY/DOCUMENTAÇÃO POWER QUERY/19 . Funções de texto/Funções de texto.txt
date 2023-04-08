@@ -1,0 +1,50 @@
+Text.AfterDelimiter
+
+Remove parte de um texto com base em um delimitador passado como parâmetro, é possível utilizar um segundo parâmetro também
+para verificar em qual ocorrência após o delimitador o texto será extraído.
+
+Sintaxe:
+
+Exemplo na tabela: Text.BeforeDelimiter("Adriana","A") // Extraia do texto "Adriana" todo o texto que venha antes do caracter "A"
+Resultado: "driana".
+--------------------------------------------------------------------------------------------------------------------------------------------
+Text.AfterDelimiter
+
+Remove parte de um texto com base em um delimitador passado como parâmetro, é possível utilizar um segundo parâmetro também
+para verificar em qual ocorrência após o delimitador o texto será extraído.
+
+Sintaxe:
+
+Exemplo na tabela: Text.BeforeDelimiter("Jose","e") // Extraia do texto "Jose" todo o texto que venha antes do caracter "e"
+Resultado: "jos"
+--------------------------------------------------------------------------------------------------------------------------------------------
+Text.At
+
+Retorna o caracter que está em uma determinada posição.
+
+Sintaxe: Text.At(texto, posição), /// a primeira posição inicia com 0.
+
+Exemplo: Text.At("Joao",0)
+Resultado: "J"
+--------------------------------------------------------------------------------------------------------------------------------------------
+Text.BetweenDelimiters
+
+Retorna um texto que está entre dois parâmetros passados como parâmetros.
+
+Sintaxe: Text.BetweenDelimiters(texto,delimtador1,delimitador2)
+
+Exemplo: Text.BetweenDelimiters("(84)99999-9999)", "(",")")
+Resultado: "84"
+--------------------------------------------------------------------------------------------------------------------------------------------
+Texto.Combine
+
+Sintaxe: Text.Combine({"texto1","texto2"}). Essa função pode ter um segundo parâmetro que seria o separador
+
+Exemplo: Text.Combine({"Deivide","Felipe"}).
+Exemplo2: Text.Combine({"Deivide","Felipe"}," ").
+--------------------------------------------------------------------------------------------------------------------------------------------
+Text.Contains
+
+Verifica se um texto possui algum caracter passado como segundo parâmetro, o resultado é um true ou false
+
+Sintaxe: 

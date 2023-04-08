@@ -1,0 +1,20 @@
+A função "Combiner.CombineTextByDelimiter" é usada para juntar textos que estão em diferentes linhas ou colunas de uma tabela, 
+utilizando um separador (delimitador) específico para unir os textos.
+
+Fórmula: = Combiner.CombineTextByDelimiter(delimiter, text)
+
+
+A função "Combiner.CombineTextByEachDelimiter" do Power Query é usada para juntar textos que estão em diferentes linhas ou colunas de uma tabela,
+utilizando uma lista de separadores (delimitadores) específicos para unir os textos.
+
+Fórmula: = Combiner.CombineTextByEachDelimiter(delimiters, text)
+
+// A diferença entre ambas é que a função "Combiner.CombineTextByEachDelimiter" permite mais de um separador, enquanto a outra não.
+
+
+A função "Combiner.CombineTextByLengths" é usada para juntar textos que estão em diferentes linhas ou colunas de uma tabela, 
+utilizando um conjunto de comprimentos de caracteres para cada texto que será combinado.
+
+Fórmula: = Combiner.CombineTextByLengths(lengths, text)
+
+
