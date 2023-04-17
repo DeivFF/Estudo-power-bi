@@ -1,0 +1,21 @@
+Passos realizados:
+
+Primeiro, criamos uma tabela dimensão calendário (dCalendario) com o período de datas que queremos calcular,
+adicionamos uma nova coluna com nome do dia, que resultará em resposta de domingo a domingo, após isto criamos uma nova coluna chamada
+"Dias úteis proguessivos" com a fórmula abaixo.
+
+Esta fórmula é responsável por colo
+
+
+Dias úteis proguessivos = 
+var vData_linha = dCalendario[Data]
+var vResultado = 
+CALCULATE
+	SUM(dCalendario[Dia útil],
+	FILTER (
+		dCalendario,
+		dCalendario[Data] <= vData_linha))
+
+return
+vResultado
+
